@@ -13,7 +13,7 @@ const CatalogLayout = ({ children }) => {
           Ortga
         </p>
       </NavLink>
-      <div className="grid grid-cols-12">
+      <div className="grid grid-cols-12 gap-4">
         <div className="col-span-3 mb-40">
           <h1 className="text-[#000000] font-monserrat text-[32px] font-bold leading-9">
             Поломоичные машины
