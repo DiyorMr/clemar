@@ -1,5 +1,6 @@
 import React from "react";
 import { ArrowRightLeft, Heart } from "lucide-react";
+import { NavLink } from "react-router-dom";
 
 const ProductCard = ({ item }) => {
   const statusClass = (status) => {
@@ -47,9 +48,9 @@ const ProductCard = ({ item }) => {
           {item.price} сум
         </p>
         <div className="flex items-center gap-4">
-          <button className="w-[220px] h-[58px] rounded-[9.68px] bg-[#F5F5F7]  text-[#000000] font-monserrat text-[22px] font-semibold leading-7 ">
+          <NavLink to="/catalog/all/1" className="w-[220px] h-[58px] rounded-[9.68px] bg-[#F5F5F7]  text-[#000000] font-monserrat text-[22px] font-semibold leading-7 ">
             Xarid qilish
-          </button>
+          </NavLink>
           <button className="w-[70px] h-[58px] rounded-[9.68px] bg-[#F5F5F7] flex items-center justify-center ">
             <ArrowRightLeft />
           </button>

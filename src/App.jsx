@@ -13,14 +13,7 @@ const App = () => {
       <Layout>
         <Routes>
           <Route path="/" element={<Header />} />
-          <Route
-            path="/catalog/:slug"
-            element={
-              <CatalogLayout>
-                <Catalog />
-              </CatalogLayout>
-            }
-          />
+          <Route path="/catalog/:slug" element={<CatalogLayout><Catalog /></CatalogLayout>}/>
           <Route path="/catalog/:slug/:id" element={<CatalogDetail />} />
           <Route path="/news" element={<News />} />
         </Routes>
@@ -31,11 +24,3 @@ const App = () => {
 
 export default App;
 
-{
-  /* <Navbar />
-<Header />
-<TopProducts />
-<Clean />
-<Contact />
-<Fotter /> */
-}
