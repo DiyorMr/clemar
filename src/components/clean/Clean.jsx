@@ -8,26 +8,26 @@ import { cleanCardText } from "./data";
 
 const Clean = () => {
   return (
-    <div className="mx-auto max-w-[1340px] mb-40">
+    <div className="mx-auto max-w-[1340px] mb-40 px-5">
       <div className="flex items-center justify-between">
-        <h1 className="text-[#000000] font-monserrat text-[32px] font-bold leading-3">
+        <h1 className="text-[#000000] font-monserrat text-base sm:text-3xl font-bold">
           Clean market yangiliklari
         </h1>
         <NavLink
           to="/news"
-          className="underline text-[#0B8297] font-monserrat text-lg font-medium leading-4"
+          className="underline text-[#0B8297] font-monserrat text-base md:text-lg font-medium"
         >
           Barcha yangiliklar
         </NavLink>
       </div>
 
-      <div className="my-9 flex gap-8  w-[1340px] h-[285px] rounded-2xl border-1 bg-[#FFFFFF]">
-        <div>
-          <img src={clean} alt="" className="w-[519px] h-[285px]" />
+      <div className="my-14 lg:my-9 grid grid-cols-12 rounded-2xl border-1 bg-[#FFFFFF]">
+        <div className="col-span-12 lg:col-span-6">
+          <img src={clean} alt="" className="w-full h-[285px]" />
         </div>
 
-        <div>
-          <div className="flex  gap-12 pt-4">
+        <div className="col-span-12 lg:col-span-6">
+          <div className="flex flex-wrap md:flex-nowrap justify-center md:justify-between gap-12 pt-4">
             <div className="w-[140px] h-[35px] rounded-3xl bg-[#F5F5F7]">
               <h2 className="text-[#0B8297] font-monserrat text-base font-medium leading-5 text-center p-2 cursor-pointer ">
                 Actual new

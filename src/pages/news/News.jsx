@@ -6,7 +6,7 @@ import newsimg from "../../img/newsimg.svg";
 
 const News = () => {
   return (
-    <div className="mx-auto max-w-[1340px]">
+    <div className="mx-auto max-w-[1340px] px-5">
       <NavLink to="/catalog" className="flex items-center gap-2 mb-4">
         <ArrowLeft className="text-[#0B8297]" />
         <p className="text-[#0B8297] text-base font-medium leading-5 font-monserrat">

@@ -7,7 +7,7 @@ import Contact from "../contact/Contact";
 
 const Header = () => {
   return (
-    <div className="mx-auto max-w-[1340px] mb-28">
+    <div className="mx-auto max-w-[1340px] mb-28 px-5">
       <HeaderCorusel data={coruselData} />
       <TopProducts />
       <Clean />

@@ -20,7 +20,7 @@ const ProductCard = ({ item }) => {
     }
   };
   return (
-    <div className="col-span-3 border-2 rounded-[14.48px] bg-[#FFFFFF] mt-6">
+    <div className="grid-cols-2 lg:col-span-3 border-2 rounded-[14.48px] bg-[#FFFFFF] mt-6">
       <div className="w-full h-[280px]  mx-auto relative p-[14px]">
         <div className="flex items-center justify-center bg-[#F5F5F7] rounded-[9.65px] pb-3">
           <img src={item.img} alt="" className="pt-8" />
@@ -48,7 +48,7 @@ const ProductCard = ({ item }) => {
           {item.price} сум
         </p>
         <div className="flex items-center gap-4">
-          <NavLink to="/catalog/all/1" className="w-[220px] h-[58px] rounded-[9.68px] bg-[#F5F5F7]  text-[#000000] font-monserrat text-[22px] font-semibold leading-7 ">
+          <NavLink to="/catalog/all/1" className="w-full md:w-[220px] h-[58px] text-center p-4 rounded-[9.68px] bg-[#F5F5F7]  text-[#000000] font-monserrat text-[22px] font-semibold leading-7 ">
             Xarid qilish
           </NavLink>
           <button className="w-[70px] h-[58px] rounded-[9.68px] bg-[#F5F5F7] flex items-center justify-center ">

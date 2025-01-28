@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 const CategoryCard = () => {
   return (
     <div>
-      <div className="flex items-center justify-between mt-32">
+      <div className="flex gap-4 lg:flex items-center justify-between mt-32">
         <h1 className="text-[#000000] font-monserrat text-[32px] font-bold leading-3">
           Kategoriyalar
         </h1>
@@ -17,10 +17,10 @@ const CategoryCard = () => {
           Barchasi
         </NavLink>
       </div>
-      <div className="grid grid-cols-12 mt-10">
+      <div className="grid grid-cols-12 mt-10 gap-6">
         {categoryCardData.map((item, index) => (
-          <div className="col-span-3 gap-3" key={index}>
-            <div className="w-[316px] h-[320px] rounded-3xl border-2">
+          <div className="col-span-6 lg:col-span-3 gap-3" key={index}>
+            <div className="w-full flex items-center justify-center h-[320px] rounded-3xl border-2">
               <img src={item.img} alt="" />
             </div>
           </div>

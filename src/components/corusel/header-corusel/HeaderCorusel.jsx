@@ -4,8 +4,6 @@ import {
   Autoplay,
   Keyboard,
   Mousewheel,
-  Navigation,
-  Pagination,
 } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -16,11 +14,9 @@ const HeaderCorusel = ({ data }) => {
     <div>
       <Swiper
         cssMode={true}
-        navigation={true}
-        pagination={true}
         mousewheel={true}
         keyboard={true}
-        modules={[Autoplay, Navigation, Pagination, Mousewheel, Keyboard]}
+        modules={[Autoplay,  Mousewheel, Keyboard]}
         className="mySwiper"
         autoplay={{
           delay: 2500,

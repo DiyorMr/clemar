@@ -6,10 +6,10 @@ const CleanCard = () => {
     <div className="grid grid-cols-12 gap-5 ">
       {cleanCardData.map((item, index) => (
         <div
-          className="col-span-3 h-[454px] rounded-2xl bg-[#FFFFFF] border-2 p-3"
+          className="col-span-12 sm:col-span-6 lg:col-span-3 rounded-2xl bg-[#FFFFFF] border-2 p-3"
           key={index}
         >
-          <img src={item.img} alt="" />
+          <img src={item.img} className='w-full' alt="" />
           <h1 className="text-[#000000] font-monserrat text-lg font-semibold leading-7 py-5">
             {item.title}
           </h1>

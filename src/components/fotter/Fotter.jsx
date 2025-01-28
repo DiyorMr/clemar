@@ -5,8 +5,8 @@ import logof from "../../img/logof.svg";
 const Fotter = () => {
   return (
     <div className=" bg-[#0B8297]">
-      <div className="mx-auto max-w-[1100px] flex items-center gap-40 pb-6">
-        <div>
+      <div className="mx-auto max-w-[1100px] grid grid-cols-3 sm:grid-cols-6 md:grid-cols-9 lg:grid-cols-12 pb-6">
+        <div className="col-span-3">
           <h1 className="text-[#FFFFFF] font-monserrat text-lg font-medium leading-5 w-[191px] pt-10 pb-5">
             Cleanmarket - Siz va yaqinlaringiz uchun!{" "}
           </h1>
@@ -43,7 +43,7 @@ const Fotter = () => {
             </a>
           </div>
         </div>
-        <div>
+        <div className="col-span-3">
           <p className="text-[#FFFFFF] font-monserrat text-lg font-bold leading-5 pt-28">
             Maxsulotlar
           </p>
@@ -57,7 +57,7 @@ const Fotter = () => {
             Smestitel
           </p>
         </div>
-        <div>
+        <div className="col-span-3">
           <p className="text-[#FFFFFF] font-monserrat text-lg font-bold leading-5 pt-28">
             Ma'lumotlar
           </p>
@@ -71,7 +71,7 @@ const Fotter = () => {
             Kompaniya haqida
           </p>
         </div>
-        <div>
+        <div className="col-span-3">
           <img src={logof} alt="" />
         </div>
       </div>
