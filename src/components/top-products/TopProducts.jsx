@@ -28,13 +28,13 @@ const TopProducts = () => {
       <CategoryCard />
 
       <div className="mt-28">
-        <h1 className="text-[#000000] font-monserrat text-[32px] font-bold leading-3">
+        <h1 className="text-[#000000] font-monserrat text-base md:text-3xl font-medium">
           Bizni sonlarda
         </h1>
-        <div className="bg-[#FCFCFC] mt-10 p-10">
+        <div className="bg-[#FCFCFC] mt-10">
           <div className="grid grid-cols-12 ">
             <div className="col-span-12 sm:col-span-6 py-4 lg:col-span-3 relative">
-              <img src={ellips} alt="" className="mx-auto"/>
+              <img src={ellips} alt="" className="mx-auto" />
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                 <p className="text-[#0B8297] font-rische text-6xl font-normal text-center">
                   40K
@@ -46,7 +46,7 @@ const TopProducts = () => {
             </div>
             <div className="col-span-12 sm:col-span-6 py-4 lg:col-span-3 relative">
               <img src={ellips} alt="" className="mx-auto" />
-              <div  className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                 <p className="text-[#0B8297] font-rische text-6xl font-normal text-center">
                   10+
                 </p>
@@ -83,7 +83,7 @@ const TopProducts = () => {
               </div>
             </div>
           </div>
-          <p className="text-[#848484] font-monserrat text-base font-normal lowercase leading-6 p-12 ">
+          <p className="text-[#848484] font-monserrat text-base font-normal">
             As an effort to keep polishing our services for a more satisfactory
             customer experience, we are very happy to announce the establishment
             of our new SamAutoTrans warehouse! This stands as an embodiment of

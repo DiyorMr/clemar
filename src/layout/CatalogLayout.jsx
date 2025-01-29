@@ -15,13 +15,13 @@ const CatalogLayout = ({ children }) => {
       </NavLink>
       <div className="grid grid-cols-12 gap-4">
         <div className="col-span-3 mb-40">
-          <h1 className="text-[#000000] font-monserrat text-[32px] font-bold leading-9">
+          <h1 className="text-[#000000] font-monserrat text-base lg:text-3xl font-medium">
             Поломоичные машины
           </h1>
-          <p className="text-[#979797] font-monserrat text-xs font-normal leading-4 text-center">
+          <p className="text-[#979797] font-monserrat text-xs font-normal text-center">
             2 930 товаров
           </p>
-          <h3 className="text-[#1C1E21] font-monserrat text-base font-bold leading-5 py-4">
+          <h3 className="text-[#1C1E21] font-monserrat text-base font-bold  py-4">
             Категории
           </h3>
           <div className="flex flex-col gap-2">
@@ -38,7 +38,7 @@ const CatalogLayout = ({ children }) => {
                 }
               >
                 <div>
-                  <p className=" font-monserrat text-size font-medium leading-5">
+                  <p className=" font-monserrat text-size font-medium">
                     {item.title}
                   </p>
                 </div>
@@ -59,7 +59,7 @@ const CatalogLayout = ({ children }) => {
             </div>
           </div>
         </div>
-        <div className="col-span-9">{children}</div>
+        <div className="col-span-6 md:col-span-9">{children}</div>
       </div>
     </div>
   );

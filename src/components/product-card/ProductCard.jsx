@@ -48,7 +48,7 @@ const ProductCard = ({ item }) => {
           {item.price} сум
         </p>
         <div className="flex items-center gap-4">
-          <NavLink to="/catalog/all/1" className="w-full md:w-[220px] h-[58px] text-center p-4 rounded-[9.68px] bg-[#F5F5F7]  text-[#000000] font-monserrat text-[22px] font-semibold leading-7 ">
+          <NavLink to="/catalog/all/1" className="w-full text-center p-4 rounded-[9.68px] bg-[#F5F5F7]  text-[#000000] font-monserrat text-base md:text-xl font-normal md:font-semibold">
             Xarid qilish
           </NavLink>
           <button className="w-[70px] h-[58px] rounded-[9.68px] bg-[#F5F5F7] flex items-center justify-center ">

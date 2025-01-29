@@ -15,7 +15,7 @@ const Contact = () => {
               точно тел килишади ховотир омен
             </p>
           </div>
-          <div >
+          <div>
             <p className="text-[#00132C] font-monserrat text-sm font-light">
               Бизга алокага чикинг мессенджердан
             </p>
@@ -54,7 +54,7 @@ const Contact = () => {
               className="w-full rounded-xl bg-[#F9F9F9] text-[#00132C] font-monserrat text-sm font-normal my-6 p-4 outline-none"
             ></input>
             <textarea
-            rows="5"
+              rows="5"
               type="text"
               placeholder="Xabaringizni yozib qoldiring"
               className="w-full rounded-xl bg-[#F9F9F9] text-[#00132C] font-monserrat text-sm font-normal p-4 outline-none"
